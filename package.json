@@ -1,0 +1,23 @@
+{
+  "name": "vscode-ai-chat-extension",
+  "displayName": "AI Chat Extension",
+  "description": "A VS Code extension that integrates a React-based AI chat interface.",
+  "version": "1.0.0",
+  "main": "src/extension.ts",
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "scripts": {
+    "dev": "npm run compile && npm run build",
+    "build": "vite build",
+    "watch": "vite build --watch",
+    "compile": "tsc -p ."
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.6.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5"
+  }
+}
